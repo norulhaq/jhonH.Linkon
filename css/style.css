@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    
+}
+ul{
+    margin-left: 380px;
+}
+li{
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+    color: aliceblue;
+}
+ul li:hover a {
+color: rgb(240, 0, 132);
+}
+h1{
+    margin-top: -280px;
+}
+.my-img{
+ margin-top: 60px;
+   margin-left:493px;
+}
+.my-img img{
+    height: 360px;
+    width: 600px;
+}
+.hire-me{
+    border: none;
+    border-radius: 20px;
+    background-color:#b2d430;
+    height: 20px;
+    width: 70px;
+    cursor: pointer;
+    margin-left: 340px;
+}
+:hover.hire-me:hover {
+    background-color: rgb(240, 0, 132);
+    color: aliceblue;
+    transition: 1s;
+}
+.content{
+    color: #eeeeee;
+    
+}
+.content h1 {
+    margin-left: 200px;
+   font-size: 40px;
+}
+ p{
+    margin-left: 150px;
+    font-size: 23px;
+}
+button.cv{
+    background-color:#b2d430;
+    border-radius: 5px;
+    border-color: #b2d430;
+    margin-left: 350px;
+    margin-top: 30px;
+    height: 30px;
+    width: 140px;
+    cursor: pointer; 
+}
+:hover .cv:hover{
+    background-color: rgb(240, 0, 132);
+    border: none;
+    transition: 1s;
+}
